@@ -5,9 +5,14 @@ body{
   }
   
   .container {
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    background-color: white;
     padding: 20px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
   }
 
   .left-container{
