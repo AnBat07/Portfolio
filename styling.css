@@ -4,7 +4,7 @@ body{
     padding: 0;
   }
   
-  .leftContainer {
+  .container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -24,12 +24,7 @@ body{
     width: 30%;
     height: auto;
   }
-  .rightContainer{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
+
   .projects{
     float:right;
     width: 50%;
@@ -47,4 +42,20 @@ body{
   .projects p {
     font-size: 16px;
     margin-bottom: 10px;
+  }
+
+  .percentageFill{
+    height:30px;
+    background-color: lightgrey;
+    border-radius: 20px;
+    font: 12px;
+    color:rgb(208, 160, 221);
+    }
+
+  .text{
+    color:black;
+  }
+
+  .padding{
+    padding: 16px;
   }
