@@ -16,7 +16,7 @@ body{
   }
 
   .left-container{
-    width:40%;
+    flex-basis: 40%;
     background-color: lightgray;
     padding: 15px;
   }
