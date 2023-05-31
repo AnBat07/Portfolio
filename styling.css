@@ -10,7 +10,7 @@ body {
     padding: 20px;
   }
   
-  .box {
+  .self {
     background-color: #fff;
     border: 2px solid rgb(8, 118, 90);
     padding: 20px;
@@ -18,22 +18,22 @@ body {
     box-sizing: border-box;
   }
   
-  .box img {
+  .self img {
     width: 100%;
     height: auto;
   }
   
-  .box h2 {
+  .projects h2 {
     font-size: 24px;
     margin-bottom: 10px;
   }
   
-  .box h3 {
+  .projects h3 {
     font-size: 18px;
     margin-bottom: 10px;
   }
   
-  .box p {
+  .projects p {
     font-size: 16px;
     margin-bottom: 10px;
   }
