@@ -2,6 +2,8 @@ body{
     background-color: #145e85;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-columns: 40% 60%;
   }
   
   .container {
@@ -16,13 +18,11 @@ body{
   }
 
   .left-container{
-    flex-basis: 40%;
     background-color: lightgray;
     padding: 15px;
   }
 
   .right-container{
-    flex-grow: 1;
     background-color: lightgray;
     padding:15px;
   }
