@@ -72,7 +72,6 @@ body{
   }
 
   .projects{
-    float: right;
     text-align: center;
     margin-bottom: 5px;
   }
@@ -101,7 +100,6 @@ body{
   }
 
   .right-container{
-    float:right;
     background-color: lightgray;
     padding:15px;
     display: flex;
