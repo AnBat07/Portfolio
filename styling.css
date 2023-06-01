@@ -12,6 +12,8 @@ body{
     padding: 20px;
     box-sizing: border-box;
     margin-top: 6px;
+    margin-left: 6px;
+    margin-right:6px;
     margin-bottom: 16px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -92,4 +94,8 @@ body{
 
   .padding{
     padding: 16px;
+  }
+
+  .education{
+    width:100%
   }
