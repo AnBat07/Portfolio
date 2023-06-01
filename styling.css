@@ -41,6 +41,7 @@ body{
   .projects h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center;
   }
   
   .projects h3 {
@@ -79,7 +80,7 @@ body{
     color:black;
     position: relative;
     top:50%;
-
+    transform: translate(-50%,-50%);
   }
 
   .padding{
