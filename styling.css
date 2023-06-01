@@ -17,6 +17,7 @@ body{
     margin-bottom: 16px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    flex-basis: 45%;
   }
 
   .left-container{
@@ -26,8 +27,10 @@ body{
 
   .right-container{
     background-color: lightgray;
-    
     padding:15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   
   .self{
