@@ -35,9 +35,17 @@ body{
   }
 
   .projects{
-    float:right;
+    float: right;
     width: 50%;
   }
+
+  .projects-container{
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
   .projects h2 {
     font-size: 24px;
     margin-bottom: 10px;
@@ -99,13 +107,12 @@ body{
     box-sizing: border-box;
   }
 
-  .top-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  .education{
+    text-align: center;
+    margin-bottom: 20px;
   }
 
-  .bottom-container{
+  .education-container{
     border: 1px solid #ddd;
     padding: 20px;
     box-sizing: border-box;
