@@ -101,6 +101,13 @@ body{
     padding: 16px;
   }
 
+  .bottom-container{
+    flex-basis: 100%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
   .education{
     width:100%
   }
