@@ -3,11 +3,11 @@ body{
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: 40% 60%;
   }
   
   .container {
     width: 100%;
+    grid-template-columns: 40% 60%;
     background-color: white;
     padding: 20px;
     box-sizing: border-box;
@@ -24,13 +24,14 @@ body{
 
   .right-container{
     background-color: lightgray;
+    
     padding:15px;
   }
   
-  .self {
+  .self{
     float:left;
     background-color: #fff;
-    border: 2px solid rgb(8, 118, 90);
+    border: 2px solid rgb(69, 25, 132);
     padding: 20px;
     width: 50%;
     box-sizing: border-box;
