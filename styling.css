@@ -137,8 +137,10 @@ body{
     box-sizing: border-box;
     padding-left: 2pc;
   }
-  
+
   .left-section, .right-container {
     width: 50%;
     box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
     }
