@@ -35,7 +35,7 @@ body{
   }
 
   .percentageFill{
-    height:30px;
+    height:10px;
     background-color: lightgrey;
     border-radius: 20px;
     padding-left: 2pc;
@@ -100,8 +100,7 @@ body{
   }
 
   .right-container{
-    background-color: lightgray;
-    padding:15px;
+    padding:10px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
