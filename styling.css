@@ -19,19 +19,6 @@ body{
     border-radius: 4px;
     flex-basis: 45%;
   }
-
-  .left-container{
-    background-color: lightgray;
-    padding: 15px;
-  }
-
-  .right-container{
-    background-color: lightgray;
-    padding:15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
   
   .self{
     float:left;
@@ -101,11 +88,24 @@ body{
     padding: 16px;
   }
 
+  .left-container{
+    background-color: lightgray;
+    padding: 15px;
+  }
+
+  .right-container{
+    background-color: lightgray;
+    padding:15px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
   .bottom-container{
     flex-basis: 100%;
     border: 1px solid #ddd;
     padding: 20px;
-    box-sizing: border-box;
+    position: absolute;
   }
 
   .education{
