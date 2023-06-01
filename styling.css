@@ -1,5 +1,5 @@
 body{
-    background-color: #145e85;
+    background-color: rgb(69, 25, 132);
     margin: 0;
     padding: 0;
     display: grid;
@@ -33,7 +33,6 @@ body{
   .self{
     float:left;
     background-color: #fff;
-    border: 2px solid rgb(69, 25, 132);
     padding: 20px;
     width: 50%;
     box-sizing: border-box;
@@ -68,6 +67,7 @@ body{
     height:30px;
     background-color: lightgrey;
     border-radius: 20px;
+    padding-left: 2pc;
     font: 12px;
     color:rgb(208, 160, 221);
     position: relative;
