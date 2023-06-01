@@ -7,7 +7,7 @@ body{
   
   .container {
     width: 100%;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     background-color: white;
     padding: 20px;
     box-sizing: border-box;
@@ -16,7 +16,6 @@ body{
     margin-right:6px;
     margin-bottom: 16px;
     border-radius: 4px;
-    flex-basis: 45%;
   }
   
   .self{
@@ -36,7 +35,7 @@ body{
 
   .percentageFill{
     height:15px;
-    background-color: lightgrey;
+    background-color: white;
     border-radius: 20px;
     padding-left: 2pc;
     font: 12px;
@@ -82,7 +81,7 @@ body{
     border: 1px solid rgb(132,111,201);
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
-    margin-top: -20px;
+    margin-top: -40px;
   }
 
   .projects h2 {
@@ -105,15 +104,10 @@ body{
 
   .right-container{
     background-color:lightgrey;
-    padding:10px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
-    margin-left: 6px;
-    margin-right:6px;
-    margin-bottom: 16px;
-    border-radius: 4px;
-    height: fit-content;
+    align-items: stretch;
   }
 
   .education{
@@ -125,19 +119,15 @@ body{
     background-color: rgb(255, 255, 255);
     margin-left: 5px;
     box-sizing: border-box;
-    margin-top: -20px;
+    margin-top: -40px;
   }
 
   .bottom-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
   }
-
-  .left-section, .right-container {
-    width: 50%;
-    box-sizing: border-box;
-    }
 
   .experience-container {
     margin-bottom: 20px;
@@ -147,3 +137,8 @@ body{
     box-sizing: border-box;
     padding-left: 2pc;
   }
+  
+  .left-section, .right-container {
+    width: 50%;
+    box-sizing: border-box;
+    }
