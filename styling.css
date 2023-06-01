@@ -125,23 +125,19 @@ body{
 
   .bottom-container{
     display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 20px;
-}
+    justify-content: space-between;
+    padding: 20px;
+    }
 
-.left-section {
-  width: calc(50% - 10px); 
-}
+    .left-section, .right-container {
+        width: 50%;
+        box-sizing: border-box;
+    }
 
-.right-section {
-  width: calc(50% - 10px); 
-}
-
-.experience-container {
-  margin-bottom: 20px;
-  border: 1px solid rgb(132, 111, 201);
-  background-color: rgb(255, 255, 255);
-  padding: 20px;
-  box-sizing: border-box;
-}
+    .experience-container {
+        margin-bottom: 20px;
+        border: 1px solid rgb(132, 111, 201);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        box-sizing: border-box;
+    }
