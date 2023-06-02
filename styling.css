@@ -35,7 +35,7 @@ body{
 
   .percentageFill{
     height:15px;
-    background-color: white;
+    background-color: lightgray;
     border-radius: 20px;
     padding-left: 2pc;
     font: 12px;
@@ -63,7 +63,7 @@ body{
   }
 
   .padding{
-    padding: 16px;
+    padding-bottom: 16px;
   }
 
   .left-container{
@@ -89,6 +89,7 @@ body{
     font-size: 24px;
     margin-left: 5px;
     text-align: center;
+    padding: 2px;
   }
   
   .projects h3 {
@@ -113,6 +114,7 @@ body{
 
   .education{
     text-align: center;
+    padding: 10px;
   }
 
   .education-container{
