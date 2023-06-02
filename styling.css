@@ -22,7 +22,7 @@ body{
     background-color: #fff;
     border: 2px solid rgb(69, 25, 132);
     padding: 10px;
-    width: 45%;
+    width: 100%;
     box-sizing: border-box;
     margin-right: 5px;
   }
@@ -108,6 +108,7 @@ body{
     padding: 15px;
     margin-top: 0;
     grid-column: 1/2;
+    width: 100%;
   }
 
   .education{
