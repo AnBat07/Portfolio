@@ -102,6 +102,8 @@ body{
 
   .left-container{
     flex: 1;
+    grid-column: 1/2;
+    grid-row: 1;
   }
 
   .right-container{
@@ -111,6 +113,13 @@ body{
     flex-direction: column;
     align-items: stretch;
     margin-top: 0;
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+
+  .left-container .self,
+  .left-container .skills {
+    width: 100%;
   }
 
   .education{
