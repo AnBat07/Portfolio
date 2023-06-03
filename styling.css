@@ -2,12 +2,14 @@ body{
     background-color: rgb(69, 25, 132);
     margin: 0;
     padding: 0;
+    display: grid;
   }
   
   .container {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr, 1fr;
+    grid-template-rows: auto;
     background-color: white;
     padding: 20px;
     box-sizing: border-box;
@@ -108,13 +110,15 @@ body{
     padding: 15px;
     margin-top: 0;
     grid-column: 2/3;
-    width: 100%;
+    align-items: stretch; 
+    grid-row: 1;
   }
 
   .left-container, .right-container{
     display: flex;
     flex-direction: column;
     flex: 1;
+    width: 100%;
   }
 
   .education{
