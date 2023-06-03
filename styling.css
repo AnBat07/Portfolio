@@ -113,10 +113,12 @@ body{
 
   .left-container{
     flex: 1;
+    width: 40%;
   }
 
   .right-container{
     flex: 1;
+    width: 60%;
     background-color:lightgrey;
     padding: 15px;
     padding-left: 2px;
