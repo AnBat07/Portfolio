@@ -8,6 +8,7 @@ body{
   
   .container {
     display: flex;
+    flex-wrap: wrap;
     flex: 1;
     width: 100%;
     background-color: white;
@@ -111,13 +112,14 @@ body{
   }
 
   .left-container{
-    flex-basis: 50%;
+    flex: 1;
   }
 
   .right-container{
-    flex-basis: 50%;
+    flex: 1;
     background-color:lightgrey;
     padding: 15px;
+    padding-left: 2px;
     margin-top: 0;
     margin-left: 10px;
   }
