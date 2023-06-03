@@ -108,7 +108,9 @@ body{
   .right-container{
     background-color:lightgrey;
     padding: 15px;
+    flex: 1;
     margin-top: 0;
+    flex-direction: column;
     grid-column: 2/3;
     align-items: stretch; 
     grid-row: 1;
