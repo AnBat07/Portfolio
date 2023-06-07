@@ -80,6 +80,7 @@ body{
   .projects-container{
     margin-bottom: 5px;
     margin-left: 5px;
+    padding: 5px;
     border: 1px solid rgb(132,111,201);
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
@@ -131,7 +132,6 @@ body{
     box-sizing: border-box;
     margin-top: -40px;
     padding: 10px;
-    padding-top: 10px;
   }
 
   .education h5, h6{
@@ -152,5 +152,4 @@ body{
     background-color: rgb(255, 255, 255);
     padding: 20px;
     box-sizing: border-box;
-    padding: 10px;
   }
