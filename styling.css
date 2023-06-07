@@ -74,17 +74,17 @@ body{
 
   .projects{
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   .projects-container{
-    margin-bottom: 5px;
-    margin-left: 5px;
     padding: 5px;
     border: 1px solid rgb(132,111,201);
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 5px;
   }
 
   .projects h2 {
@@ -117,6 +117,7 @@ body{
     background-color:white;
     padding-left: 5px;
     margin-top: 20px;
+    overflow: hidden;
   }
 
   .education{
